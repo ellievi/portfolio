@@ -14,7 +14,7 @@
 
       <div class="banner">  <!-- Inserção do banner principal -->
         <picture>
-          <img src="img/banner.png" alt="Banner contendo o nome Elisama Carvalho" id="banner">
+          <img src="img/banner2.png" alt="Banner contendo o nome Elisama Carvalho" id="banner">
         </picture>
         
         <h1 id="name-title">ELISAMA
@@ -43,27 +43,73 @@
 
     <main> <!-- Tag main para a separação entre banner e informações-->
 
-      <section class="cards">
+      <section class="cards"> <!-- Seção para separar o banner dos cards com as informações -->
         
         <div>
           <picture>
-            <img src="img/elliephoto.png" alt="" id="profilepic">
+            <img src="img/elliephoto.png" alt="" id="profilepic"> 
           </picture>
         </div>
         
         <div class = "card-info about-me">
+            <img src="img/videogame-icon.svg" alt="Ícone de um videogame" id="videogame-icon"> <!-- Ícone para ficar ao lado do titulo -->
 
           <h2 id="title-card">Sobre mim</h2>
-          <p id="text-card">Meu nome é Elisama Vitória, nasci no dia 10 de abril de 2003 em Recife - PE. Através do meu amor 
+
+          <p id="text-card" >Meu nome é Elisama Vitória, nasci no dia 10 de abril de 2003 em Recife - PE. Através do meu amor 
             por jogos e tecnologia desenvolvi o sonho de aprender mais sobre programação, ao qual estou desenvolvendo e aprendendo 
             sobre esta como estudante da área. <br>
             Pretendo aprofundar meus estudos para se tornar uma desenvolvedora web, bem como obter experiência, principalmente, 
             na linguagem JavaScript e sua biblioteca React -podendo ter interesses ampliados no decorrer de ganho de experiências 
-            na vida profissional-.</p>
+            na vida profissional-.</p> <!-- Informação ''sobre mim''' -->
+
+            <a href="https://br.linkedin.com/in/elisama-carvalho-a2850b18a" target="_blank" rel="noopener noreferrer" id="rs-title">
+              <img src="img/linkedin-icon.png" alt="" id="logo-icon"></a> <!-- Link do linkedin -->
+
+              <a id="rs-title">Linkedin</a>
+
+              <a href="https://github.com/ellievi" target="_blank" rel="noopener noreferrer" id="rs-title">
+                <img src="img/github-icon.png" alt="" id="logo-icon"></a> <!-- Link do linkedin -->
+  
+                <a id="rs-title">GitHub</a>
         </div>
       </section>
-    </main>
-    
+
+      <section class="cards"> <!-- Seção para separar o banner dos cards com as informações -->
+        
+        <div class = "card-info about-me acad-info">
+
+          <img src="img/book-icon.svg" alt="ícone de um livro" id="book-icon"> <!-- Ícone ao lado do título -->
+          <h2 id="title-small">Informações Acadêmicas</h2>
+
+          <p id="text-card" >Sou estudante de <strong>''Análise e Desenvolvimento de Sistemas''</strong> na UNINTER
+            e do curso <strong>''Programador Full-Stack''</strong> do SENAI.
+            <br>
+            Possuo inglês nível intermediário.</p> <!-- Informação ''informações acadêmicas'' -->
+        </div>
+      </section>
+
+
+      <section class="carousel-portfolio"> <!-- Carrossel de projetos de portfolio -->
+          <h2 id="portfolio-title">Portfolio</h2>
+
+          <div class="portfolio">
+            <div class="portfolio-img">
+              ...
+            </div>
+
+            <div class="portfolio-info">
+              <h3 class="portfolio-text-info">
+                Projeto para um site fictício de uma loja e-commerce de games para conclusão de uma atividade 
+                proposta pelo curso do SENAI.
+              </h3>
+            </div>
+            <div class="conferir-btn">
+              <a href=""><button>CONFERIR</button></a>
+            </div>
+          </div>
+      </section>
+
 
     <!-- Importação do script do bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" 
