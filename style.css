@@ -15,6 +15,23 @@ main{
 }
 /* Fim background principal*/
 
+/* Menu */
+.nav{
+    background-color: black;
+    padding: 12px;
+}
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.nav-link:hover{
+    color: rgb(243, 208, 112);
+}
+/* Fim Menu */
+
 
 /* Cabeçalho */
 .banner img{
