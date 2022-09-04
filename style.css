@@ -43,8 +43,8 @@ main{
 
 #name-title{
     position: absolute;
-    top: 36%;
-    left: 30%;
+    top: 44%;
+    left: 32%;
     transition: translate(-50%,-50%);
     text-align: center;
     font-family: 'Chewy', cursive;
@@ -184,6 +184,11 @@ main{
     letter-spacing: 10px;
     color: white;
     text-align: center;
+}
+
+#portfolio-title:hover{
+    color: rgb(243, 208, 112);
+    font-size: 100px;
 }
 
 button img{
