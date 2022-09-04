@@ -134,11 +134,106 @@ main{
 /* Fim Card - Acadêmico */
 
 /* Portfolio */
+.carousel-portfolio{
+    border-color: rgba(235, 215, 104, 0.342);
+    border-width: 1px;
+    background-color: rgba(122, 113, 199, 0.384);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.carousel-portfolio::-webkit-scrollbar{
+    display: none;
+}
+
+.portfolio{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 12rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
 #portfolio-title{
     font-family: 'VT323', monospace;
     font-size: 80px;
     letter-spacing: 10px;
     color: white;
     text-align: center;
+}
+
+button img{
+    width: 100px;
+    cursor: pointer;
+}
+
+#button-customize{
+    background-color: transparent;
+    display: inline-block;
+}
+
+button:hover{
+    opacity: 80%;
+}
+
+.portfolio-text-info{
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 300px;
+    font-weight: bold;
+}
+
+.conferir-btn{
+    font-family: 'VT323', monospace;
+    font-size: 26px;
+}
+
+.conferir-btn a button{
+    margin-left: 64px;
+    width: fit-content;
+    border-color: #000000;
+    cursor: pointer;
+    text-shadow: 0px 4px 4px rgba(150, 62, 223, 0.25);
+    background-color: rgba(243, 208, 112, 0.904);
+}
+
+#portfolio-img{
+    margin-top: -180px;
+    margin-bottom: 10px;
+    margin-left: -100px;
+    width: 400px;
+    border-radius: 10%;
+    position: relative;
+}
+
+.portfolio-text{
+    text-align: center;
+    margin-left: -50px;
+}
+
+#portfolio-img-load{
+    margin-top: -150px;
+    margin-bottom: 20px;
+    width: 200px;
+    border-radius: 20%;
+    position: relative;
+}
+
+.nxt-btn{
+    transform: rotate(180deg);
+    background-color: transparent;
+}
+
+.pre-btn{
+    margin-left: 2%;
 }
 /* Fim Portfolio */
