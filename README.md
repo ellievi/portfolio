@@ -1,1 +1,0 @@
-# Primeiro projeto de portfólio.
